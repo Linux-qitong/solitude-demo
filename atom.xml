@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Solitude</title>
+  <icon>https://everfu.github.io/solitude-demo/icon.png</icon>
+  <subtitle>一款优雅的博客主题</subtitle>
+  <link href="https://everfu.github.io/solitude-demo/atom.xml" rel="self"/>
+  
+  <link href="https://everfu.github.io/solitude-demo/"/>
+  <updated>2024-11-11T02:00:00.000Z</updated>
+  <id>https://everfu.github.io/solitude-demo/</id>
+  
+  <author>
+    <name>伍十七</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为你的网站增加一个漂亮的今日热门侧边栏，让访客一眼看到今日最热内容</title>
+    <link href="https://everfu.github.io/solitude-demo/posts/f86654a0.html"/>
+    <id>https://everfu.github.io/solitude-demo/posts/f86654a0.html</id>
+    <published>2024-11-11T02:00:00.000Z</published>
+    <updated>2024-11-11T02:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;实现基于 Umami 后端 API 提供的页面访问量统计，通过 PHP 脚本获取当天的页面访问总量，并返回数据给前端，通过 JS 脚本将数据渲染到侧边栏的今日热门卡片中。&lt;/p&gt;
+&lt;h2 id=&quot;搭建-Umami&quot;&gt;搭建</summary>
+        
+      
+    
+    
+    
+    <category term="实用教程" scheme="https://everfu.github.io/solitude-demo/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Solitude" scheme="https://everfu.github.io/solitude-demo/tags/Solitude/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Solitude 创建日历侧边栏卡片</title>
+    <link href="https://everfu.github.io/solitude-demo/posts/874ddadb.html"/>
+    <id>https://everfu.github.io/solitude-demo/posts/874ddadb.html</id>
+    <published>2024-11-09T10:00:00.000Z</published>
+    <updated>2024-11-09T10:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;需要准备的文件&quot;&gt;需要准备的文件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;日历卡片样式文件：&lt;code&gt;schedule.css&lt;/code&gt;&lt;/p&gt;
+  &lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Solitude" scheme="https://everfu.github.io/solitude-demo/tags/Solitude/"/>
+    
+    <category term="实用教程" scheme="https://everfu.github.io/solitude-demo/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Solitude 自定义侧边栏</title>
+    <link href="https://everfu.github.io/solitude-demo/posts/c63b9f20.html"/>
+    <id>https://everfu.github.io/solitude-demo/posts/c63b9f20.html</id>
+    <published>2024-11-07T02:00:00.000Z</published>
+    <updated>2024-11-07T02:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;自定义侧边栏&quot;&gt;自定义侧边栏&lt;/h2&gt;
+&lt;p&gt;模版：&lt;/p&gt;
+&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;figcaption&gt;&lt;span&gt;aside.yaml&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Solitude" scheme="https://everfu.github.io/solitude-demo/tags/Solitude/"/>
+    
+    <category term="实用教程" scheme="https://everfu.github.io/solitude-demo/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Hexo 的外挂标签，更加高效的在 Solitude 项目中进行创作</title>
+    <link href="https://everfu.github.io/solitude-demo/posts/8f9926b7.html"/>
+    <id>https://everfu.github.io/solitude-demo/posts/8f9926b7.html</id>
+    <published>2024-10-07T16:00:00.000Z</published>
+    <updated>2024-10-07T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note danger modern no-icon&quot;&gt;&lt;p&gt;内置的外挂标签满足大部分用户的需求，不需要额外安装插件。&lt;br&gt;
+插件的外挂标签需要安装对应的插件，满足部分用户的特殊需求。&lt;/p&gt;&lt;/div&gt;
+&lt;h1&gt;内置标签&lt;/h1&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="我的项目" scheme="https://everfu.github.io/solitude-demo/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="外挂标签" scheme="https://everfu.github.io/solitude-demo/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+</feed>

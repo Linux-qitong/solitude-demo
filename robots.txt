@@ -1,0 +1,14 @@
+# 适用于所有的爬虫
+User-agent: *
+
+# 禁止爬虫
+Disallow: /archives/
+Disallow: /categories/
+Disallow: /tags/
+Disallow: /images/
+
+# 允许爬虫
+Allow: /
+
+# 指向网站地图
+Sitemap: https://everfu.github.io/solitude-demo/sitemap.xml

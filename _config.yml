@@ -139,7 +139,7 @@ feed:
   template:
 
 search:
-  path: solitude-demo/search.xml
+  path: search.xml
   field: post
   content: true
   format: html

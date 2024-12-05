@@ -24,3 +24,11 @@ links:
             topimg:
             tag: 首个
             color: pink
+
+          - name: 冰凌的博客 # 友链名称
+            link: https://blog.icewk.org # 友链地址
+            avatar: https://s21.ax1x.com/2024/12/05/pAobTW4.png # 显示头像
+            descr: 去码头整点薯条 # 友链简介
+            topimg:
+            tag: 海鸥
+            color: blue

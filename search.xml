@@ -103,11 +103,11 @@
 打开配置文件中开关</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">chart:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 <div class="tabs" id="chart"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#chart-0">语法</button></li><li class="tab"><button type="button" data-href="#chart-1">参数</button></li><li class="tab"><button type="button" data-href="#chart-2">示例</button></li><li class="tab"><button type="button" data-href="#chart-3">效果</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="chart-0"><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% chart %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="chart-1"><p>不需要参数。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="chart-2"><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% chart %&#125;</span><br><span class="line">&#123;% endchart %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="chart-3"><div class="chart">
-    <canvas id="chart-3efkldtnm"></canvas>
+    <canvas id="chart-6kul2b75a"></canvas>
     <script>
     !function() {
       const chart = () => {
-        const canvas = document.getElementById("chart-3efkldtnm");
+        const canvas = document.getElementById("chart-6kul2b75a");
         if (!canvas) return;
         const ctx = canvas.getContext("2d");
         new Chart(ctx, {type: 'bar',
@@ -210,13 +210,13 @@ options: {
 </tr>
 </tbody>
 </table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="typeit-2"><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% typeit &#x27;div&#x27; &#125;</span><br><span class="line">waitUntilVisible: true,</span><br><span class="line">strings: &quot;Alex MacArthur&quot;,</span><br><span class="line">&#123;% endtypeit %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="typeit-3"><div class="typeit">
-    <div id="typeit-9wjabg1dc"></div>
+    <div id="typeit-u0khw5d66"></div>
     <script>
     !function() {
       const typeit = () => {
-        const ctx = document.getElementById("typeit-9wjabg1dc");
+        const ctx = document.getElementById("typeit-u0khw5d66");
         if (!ctx) return;
-        new TypeIt("#typeit-9wjabg1dc", {waitUntilVisible: true,
+        new TypeIt("#typeit-u0khw5d66", {waitUntilVisible: true,
 strings: "Alex MacArthur"})
           .go();
       }
@@ -658,24 +658,24 @@ icon: fantawesome 图标（例如： fas fa-mail）</p><button type="button" cla
 </tr>
 </tbody>
 </table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="githubrepo-2"><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% github &#x27;everfu/hexo-theme-solitude&#x27; %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="githubrepo-3"><div class="repo-card">
-  <a class='name-jexm0m2o8 repo-title fancybox' href="https://github.com/everfu/hexo-theme-solitude"></a>
-  <p class='desc-jexm0m2o8 repo-desc'></p>
+  <a class='name-ttju9zl2v repo-title fancybox' href="https://github.com/everfu/hexo-theme-solitude"></a>
+  <p class='desc-ttju9zl2v repo-desc'></p>
   <div class="repo-gist">
     <i class="fas fa-star"></i>
-    <span class='star-jexm0m2o8'></span>
+    <span class='star-ttju9zl2v'></span>
     <i class="fas fa-code-branch"></i>
-    <span class='fork-jexm0m2o8'></span>
+    <span class='fork-ttju9zl2v'></span>
   </div>
-  <img class='lang-jexm0m2o8 repo-language no-lightbox' />
+  <img class='lang-ttju9zl2v repo-language no-lightbox' />
   <script>
     fetch('https://api.github.com/repos/everfu/hexo-theme-solitude')
       .then(res => res.json())
       .then(data => {
-        document.querySelector('.name-jexm0m2o8').innerText = data.name;
-        document.querySelector('.desc-jexm0m2o8').innerText = data.description;
-        document.querySelector('.star-jexm0m2o8').innerText = data.stargazers_count;
-        document.querySelector('.fork-jexm0m2o8').innerText = data.forks_count;
-        document.querySelector('.lang-jexm0m2o8').src = 'https://skillicons.dev/icons?i=' + data.language.toLowerCase();
+        document.querySelector('.name-ttju9zl2v').innerText = data.name;
+        document.querySelector('.desc-ttju9zl2v').innerText = data.description;
+        document.querySelector('.star-ttju9zl2v').innerText = data.stargazers_count;
+        document.querySelector('.fork-ttju9zl2v').innerText = data.forks_count;
+        document.querySelector('.lang-ttju9zl2v').src = 'https://skillicons.dev/icons?i=' + data.language.toLowerCase();
     });
   </script>
   </div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div></div></div>
@@ -702,24 +702,24 @@ icon: fantawesome 图标（例如： fas fa-mail）</p><button type="button" cla
 </tr>
 </tbody>
 </table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="gitearepo-2"><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% gitea &#x27;https://git.fsfe.org&#x27; &#x27;FSFE/fsfe-website&#x27; %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="gitearepo-3"><div class="repo-card">
-  <a class='name-ps4jrjc6b repo-title fancybox' href="https://git.fsfe.org/FSFE/fsfe-website"></a>
-  <p class='desc-ps4jrjc6b repo-desc'></p>
+  <a class='name-1fakl3thb repo-title fancybox' href="https://git.fsfe.org/FSFE/fsfe-website"></a>
+  <p class='desc-1fakl3thb repo-desc'></p>
   <div class="repo-gist">
     <i class="fas fa-star"></i>
-    <span class='star-ps4jrjc6b'></span>
+    <span class='star-1fakl3thb'></span>
     <i class="fas fa-code-branch"></i>
-    <span class='fork-ps4jrjc6b'></span>
+    <span class='fork-1fakl3thb'></span>
   </div>
-  <img class='lang-ps4jrjc6b repo-language no-lightbox' />
+  <img class='lang-1fakl3thb repo-language no-lightbox' />
   <script>
     fetch('https://git.fsfe.org/api/v1/repos/FSFE/fsfe-website')
       .then(res => res.json())
       .then(data => {
-        document.querySelector('.name-ps4jrjc6b').innerText = data.name;
-        document.querySelector('.desc-ps4jrjc6b').innerText = data.description;
-        document.querySelector('.star-ps4jrjc6b').innerText = data.stars_count;
-        document.querySelector('.fork-ps4jrjc6b').innerText = data.forks_count;
-        document.querySelector('.lang-ps4jrjc6b').src = 'https://skillicons.dev/icons?i=' + data.language.toLowerCase();
+        document.querySelector('.name-1fakl3thb').innerText = data.name;
+        document.querySelector('.desc-1fakl3thb').innerText = data.description;
+        document.querySelector('.star-1fakl3thb').innerText = data.stars_count;
+        document.querySelector('.fork-1fakl3thb').innerText = data.forks_count;
+        document.querySelector('.lang-1fakl3thb').src = 'https://skillicons.dev/icons?i=' + data.language.toLowerCase();
     });
   </script>
   </div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div></div></div>
@@ -741,24 +741,24 @@ icon: fantawesome 图标（例如： fas fa-mail）</p><button type="button" cla
 </tr>
 </tbody>
 </table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="giteerepo-2"><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% gitee &#x27;everfu/hexo-theme-solitude&#x27; %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="giteerepo-3"><div class="repo-card">
-  <a class='name-qaj8a59ci repo-title fancybox' href="https://gitee.com/everfu/hexo-theme-solitude"></a>
-  <p class='desc-qaj8a59ci repo-desc'></p>
+  <a class='name-1w157j1r7 repo-title fancybox' href="https://gitee.com/everfu/hexo-theme-solitude"></a>
+  <p class='desc-1w157j1r7 repo-desc'></p>
   <div class="repo-gist">
     <i class="fas fa-star"></i>
-    <span class='star-qaj8a59ci'></span>
+    <span class='star-1w157j1r7'></span>
     <i class="fas fa-code-branch"></i>
-    <span class='fork-qaj8a59ci'></span>
+    <span class='fork-1w157j1r7'></span>
   </div>
-  <img class='lang-qaj8a59ci repo-language no-lightbox' />
+  <img class='lang-1w157j1r7 repo-language no-lightbox' />
   <script>
     fetch('https://gitee.com/api/v5/repos/everfu/hexo-theme-solitude')
       .then(res => res.json())
       .then(data => {
-        document.querySelector('.name-qaj8a59ci').innerText = data.name;
-        document.querySelector('.desc-qaj8a59ci').innerText = data.description;
-        document.querySelector('.star-qaj8a59ci').innerText = data.stargazers_count;
-        document.querySelector('.fork-qaj8a59ci').innerText = data.forks_count;
-        document.querySelector('.lang-qaj8a59ci').src = 'https://skillicons.dev/icons?i=' + data.language.toLowerCase();
+        document.querySelector('.name-1w157j1r7').innerText = data.name;
+        document.querySelector('.desc-1w157j1r7').innerText = data.description;
+        document.querySelector('.star-1w157j1r7').innerText = data.stargazers_count;
+        document.querySelector('.fork-1w157j1r7').innerText = data.forks_count;
+        document.querySelector('.lang-1w157j1r7').src = 'https://skillicons.dev/icons?i=' + data.language.toLowerCase();
     });
   </script>
   </div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div></div></div>
@@ -780,24 +780,24 @@ icon: fantawesome 图标（例如： fas fa-mail）</p><button type="button" cla
 </tr>
 </tbody>
 </table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="gitlabrepo-2"><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% gitlab &#x27;gitlab-org/gitlab&#x27; %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="gitlabrepo-3"><div class="repo-card">
-  <a class='name-cg4ep704v repo-title fancybox' href="https://gitlab.com/gitlab-org/gitlab"></a>
-  <p class='desc-cg4ep704v repo-desc'></p>
+  <a class='name-06t65qrdv repo-title fancybox' href="https://gitlab.com/gitlab-org/gitlab"></a>
+  <p class='desc-06t65qrdv repo-desc'></p>
   <div class="repo-gist">
     <i class="fas fa-star"></i>
-    <span class='star-cg4ep704v'></span>
+    <span class='star-06t65qrdv'></span>
     <i class="fas fa-code-branch"></i>
-    <span class='fork-cg4ep704v'></span>
+    <span class='fork-06t65qrdv'></span>
   </div>
-  <img class='lang-cg4ep704v repo-language no-lightbox' />
+  <img class='lang-06t65qrdv repo-language no-lightbox' />
   <script>
     fetch('https://gitlab.com/api/v4/projects/gitlab-org%2Fgitlab')
       .then(res => res.json())
       .then(data => {
-        document.querySelector('.name-cg4ep704v').innerText = data.name;
-        document.querySelector('.desc-cg4ep704v').innerText = data.description;
-        document.querySelector('.star-cg4ep704v').innerText = data.star_count;
-        document.querySelector('.fork-cg4ep704v').innerText = data.forks_count;
-        document.querySelector('.lang-cg4ep704v').src = 'https://skillicons.dev/icons?i=' + data.topics[data.topics.length - 1].toLowerCase().replace('.','');
+        document.querySelector('.name-06t65qrdv').innerText = data.name;
+        document.querySelector('.desc-06t65qrdv').innerText = data.description;
+        document.querySelector('.star-06t65qrdv').innerText = data.star_count;
+        document.querySelector('.fork-06t65qrdv').innerText = data.forks_count;
+        document.querySelector('.lang-06t65qrdv').src = 'https://skillicons.dev/icons?i=' + data.topics[data.topics.length - 1].toLowerCase().replace('.','');
     });
   </script>
   </div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="solitude fas fa-arrow-up"></i></button></div></div></div>

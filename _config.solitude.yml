@@ -303,7 +303,7 @@ post:
     # uv
     readtime: true
     # pv
-    pv: true
+    pv: false
     # Comment count
     # 评论数
     comment: false
@@ -669,7 +669,7 @@ tianli_talk:
   key: efd0a84058a25af978278dd67927c53195ba
   option:
 post_ai:
-  enable: true
+  enable: false
   modelName: GPT
   key: efd0a84058a25af978278dd67927c53195ba
   talk: 我是小托尼开发的摘要生成助理，在静态部署时进行摘要的撰写，并且在访客访问时通过Correction转译后的文本摘要实现工具。我在这里只负责已经生成的摘要显示，你无法与我直接沟通，但我可以回答一些预设的问题。

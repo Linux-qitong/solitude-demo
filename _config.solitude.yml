@@ -71,23 +71,32 @@ hometop:
     url: 开发、设计、制作、运维
     icon:
       Nodejs:
-        img: https://skillicons.dev/icons?i=nodejs
+        # img: https://skillicons.dev/icons?i=nodejs
+        icon: fab fa-node-js
+        icon_color: "#18a497"
         color: "#242938"
       Vue:
-        img: https://skillicons.dev/icons?i=vuejs
+        # img: https://skillicons.dev/icons?i=vuejs
+        icon: fab fa-vuejs
+        icon_color: "#42b983"
         color: "#242938"
       React:
-        img: https://skillicons.dev/icons?i=react
+        # img: https://skillicons.dev/icons?i=react
+        icon: fab fa-react
+        icon_color: "#61dafb"
         color: "#242938"
       HTML:
-        img: https://skillicons.dev/icons?i=html
+        # img: https://skillicons.dev/icons?i=html
+        icon: fab fa-html5
         color: "#e34c26"
       CSS:
-        img: https://skillicons.dev/icons?i=css
+        # img: https://skillicons.dev/icons?i=css
+        icon: fab fa-css3-alt
         color: "#0277BD"
       JavaScript:
-        img: https://skillicons.dev/icons?i=javascript
-        color: "#EFDB50"
+        # img: https://skillicons.dev/icons?i=javascript
+        icon: fab fa-js
+        color: "#f7df1e"
   group:
     # 热门: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
   recommendList:

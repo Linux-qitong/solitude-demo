@@ -32,3 +32,11 @@ links:
             topimg:
             tag: 海鸥
             color: blue
+            
+          - name: 青稚の空间 # 友链名称
+            link: https://blog.linux-qitong.top # 友链地址
+            avatar: https://blog.linux-qitong.top/img/avatar.avif
+            descr: 越努力，越幸运. # 友链简介
+            tag: 青稚
+            color: cyan
+  

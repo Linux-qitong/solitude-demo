@@ -98,8 +98,10 @@ hometop:
         icon: fab fa-js
         color: "#f7df1e"
   group:
-    # 热门: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+    主题配置: tags/Solitude/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+    外挂标签: posts/8f9926b7.html || fas fa-tags || linear-gradient(to right,#b8b,#f65)
   recommendList:
+    enable: false
     sup: 置顶
     title: Solitude 官方文档
     url: https://solitude.js.org/zh/
@@ -136,7 +138,7 @@ aside:
   # Information card
   # 信息卡
   card:
-    style: 0 # 0: default 1: style 1 2: style 2
+    style: 2 # 0: default 1: style 1 2: style 2
     author:
       img: https://avatars.githubusercontent.com/u/74389842?v=4
     url: https://github.com/everfu # link / 点击头像跳转链接

@@ -1,8 +1,8 @@
 name: Deploy Hexo Blog
 
 on:
-  push:
   workflow_dispatch:
+  push:
     branches:
       - main # 替换为你的主分支名称
 

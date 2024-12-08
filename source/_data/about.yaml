@@ -17,22 +17,30 @@ skills: # Add as needed
     subtitle: 解锁创造力
     tags:
       - title: HTML
-        icon: https://skillicons.dev/icons?i=html
+        # img: https://skillicons.dev/icons?i=html
+        icon: fab fa-html5
         color: "#e9572b"
       - title: Javascript
-        icon: https://skillicons.dev/icons?i=javascript
+        # img: https://skillicons.dev/icons?i=javascript
+        icon: fab fa-js
         color: "#f7cb4f"
       - title: Kotlin
-        icon: https://skillicons.dev/icons?i=kotlin
+        img: https://skillicons.dev/icons?i=kotlin
+        icon: fab fa-kotlin
+        icon_color: "#69a5ff"
         color: "#ffffff"
       - title: WebPack
-        icon: https://skillicons.dev/icons?i=webpack
+        img: https://skillicons.dev/icons?i=webpack
+        icon: fab fa-webpack
+        icon_color: "#f7cb4f"
         color: "#2e3a41"
       - title: Git
-        icon: https://skillicons.dev/icons?i=git
+        # img: https://skillicons.dev/icons?i=git
+        icon: fab fa-git
         color: "#df5b40"
       - title: Docker
-        icon: https://skillicons.dev/icons?i=docker
+        # img: https://skillicons.dev/icons?i=docker
+        icon: fab fa-docker
         color: "#57b6e6"
 
 motto:

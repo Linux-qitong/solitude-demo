@@ -256,7 +256,7 @@ page:
   categories: true
   # list: Sort List / 1: Follow HomeList
   # list: 排序列表 / 1: 跟随首页列表
-  archives: 0
+  archives: 1
   # Default value
   # 默认值
   default:
@@ -396,7 +396,7 @@ display_mode:
 # Related articles
 # 相关文章
 related_post:
-  enable: true
+  enable: false
   limit: 2
   # created: release date / updated: update date
   # created: 发布日期 / updated: 更新日期

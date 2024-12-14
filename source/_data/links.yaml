@@ -47,3 +47,9 @@ links:
             tag: rin
             color: purple
   
+          - name: Mo的记事簿 # 友链名称
+            link: https://blog.xiowo.net # 友链地址
+            avatar: https://blog.xiowo.net/img/avatar.png
+            descr: 沫塔尔是万年鸽王OvO # 友链简介
+            tag: 沫
+            color: yellow

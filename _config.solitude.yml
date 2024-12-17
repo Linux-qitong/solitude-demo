@@ -359,7 +359,7 @@ post:
   covercolor:
     enable: true
     # local: local color / api: api color / ave: oss covercolor
-    mode: ave
+    mode: local
     # api address / api 地址
     api: https://api.qjqq.cn/api/Imgcolor?img=
     # Storage / 缓存时间
@@ -779,7 +779,7 @@ giscus:
 # Console
 # 控制台
 console:
-  enable: true
+  enable: false
   # Recent comments
   # 最新评论
   recentComment:

@@ -40,9 +40,9 @@ links:
             tag: 青稚
             color: cyan
 
-          - name: 陵长镜  # 友链名称
-            link: https://r1n.top  # 友链地址
-            avatar: https://r1n.top/avatar_nr.jpg 
+          - name: 陵长镜 # 友链名称
+            link: https://r1n.top # 友链地址
+            avatar: https://r1n.top/avatar_nr.jpg
             descr: Everything collapses, but you rise. # 友链简介
             tag: rin
             color: purple

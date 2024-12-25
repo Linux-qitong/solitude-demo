@@ -6,4 +6,4 @@ date: 2024-08-28 01:00:13
 type: links
 ---
 
-自行提交到[GitHub](https://github.com/everfu/solitude-demo.git)
+限制使用本主题的站点，自行提交到[GitHub](https://github.com/everfu/solitude-demo.git)
